@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Upload — SetupDump</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">S</span>
+      SetupDump
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="explore.html">Explore</a>
+      <a href="upload.html" class="active">Upload</a>
+      <a href="profile.html">Profile</a>
+      <a href="admin.html">Admin</a>
+    </div>
+    <div class="actions">
+      <a class="btn btn-secondary" href="profile.html">CableGoblin</a>
+      <a class="btn btn-primary" href="upload.html">+ Upload</a>
+    </div>
+  </div>
+</nav>
+
+
+<main class="container">
+  <section class="page-head">
+    <div class="eyebrow">share the chaos</div>
+    <h1>Upload your setup</h1>
+    <p>Post the build, the cables, the RGB, and the slightly concerning decisions. The internet is already here.</p>
+  </section>
+  <form class="form-card" data-demo-form>
+    <div class="form-grid">
+      <div class="field full">
+        <label>Image</label>
+        <label class="upload-zone">
+          <strong>Click to choose an image</strong>
+          <div class="meta" style="justify-content:center;margin-top:8px">JPG, PNG or WEBP</div>
+          <input id="imageInput" type="file" accept="image/*" hidden>
+          <img id="preview" hidden alt="preview">
+        </label>
+      </div>
+      <div class="field full"><label>Title</label><input class="input" placeholder="e.g. My definitely reasonable gaming setup"></div>
+      <div class="field"><label>Category</label><select class="select"><option>Gaming</option><option>Home Server</option><option>Budget</option><option>Workstation</option><option>Keyboard</option><option>Cable Crime</option></select></div>
+      <div class="field"><label>Tags</label><input class="input" placeholder="rgb, ultrawide, custom-pc"></div>
+      <div class="field full"><label>Description</label><textarea class="textarea" rows="6" placeholder="Tell us about the setup..."></textarea></div>
+      <div class="field full"><button class="btn btn-primary" type="submit">Publish setup</button></div>
+    </div>
+  </form>
+</main>
+
+
+<footer class="footer">
+  <div class="container footer-row">
+    <div>© 2026 SetupDump — questionable setups, proudly shared.</div>
+    <div>About · Rules · Contact · Privacy</div>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
